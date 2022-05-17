@@ -1,0 +1,16 @@
+/*Dyaln Faulk*/
+use TaylorPizzeria;
+
+BEGIN;
+DROP TABLE IF EXISTS orderhist;
+DROP TABLE IF EXISTS pizza;
+DROP TABLE IF EXISTS orderPage;
+DROP TABLE IF EXISTS dineIn ;
+DROP TABLE IF EXISTS delivery;
+DROP TABLE IF EXISTS carryout;
+DROP TABLE IF EXISTS customer;
+DROP TABLE IF EXISTS discount;
+DROP TABLE IF EXISTS basePrice;
+DROP TABLE IF EXISTS TOPPING;
+
+commit;
